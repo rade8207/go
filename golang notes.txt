@@ -19,3 +19,5 @@ Tree shaking; go linker;
 := moze samo unutar funkcije, globalne varijable moraju sa var i =
 
 constants are immutable, unlike variables which are muttable
+
+:= ne moze za konstante
