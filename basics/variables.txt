@@ -1,0 +1,28 @@
+package basics
+
+import "fmt"
+
+//Globalne varijable
+var middleName = "Ljubomir"
+
+func main() {
+	// var age int
+	// var name string = "John"
+	// var firstName = "Jane"
+
+	// count := 5
+	// lastName := "Dance"
+
+	// ---------- SCOPES ----------
+	// {
+	// 	var age int = 30           // nova varijabla age unutar ovog bloka
+	// 	println("Inner age:", age) // Ispisuje 30
+	// }
+
+	fmt.Println(middleName)
+}
+
+func printName() {
+	firstName := "Rade"
+	fmt.Println("First Name:", firstName)
+}

@@ -1,0 +1,38 @@
+package basics
+
+import "fmt"
+
+type EmployeeGoogle struct {
+	FirstName string
+	LastName  string
+	Age       int
+}
+
+type EmployeeApple struct {
+	FirstName string
+	LastName  string
+	Age       int
+}
+
+func main() {
+
+	// PascalCase
+	// CalculateArea, UserInfo, OrderStatus
+	// Structs, Interfaces, Enums
+
+	// snake_case
+	// user_id, first_name, order_total
+
+	// UPPERCASE
+	// for constants like MAX_SIZE, DEFAULT_TIMEOUT
+	// they are immutable, unlike variables which are muttable
+
+	// mixedCase ili camelCase
+	// firstName, orderTotal, calculateArea
+
+	const MAXTRIES = 10
+
+	var employeeID = 1001
+	fmt.Println("Employee ID:", employeeID)
+	fmt.Println("Max Tries:", MAXTRIES)
+}

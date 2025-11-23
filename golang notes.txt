@@ -1,0 +1,21 @@
+https://github.com/rade8207/go.git
+
+git repo:
+
+go build hello.go
+napravi binarni executable naseg programa
+pokrenemo sa ./hello
+
+GO compiler (u masinac) i Go Runtime (runtime radi execution programa, memory aloc, garbage collection...)
+
+import (
+	"fmt"
+	foo "net/http" //umesto "http", koristimo alias "foo"
+)
+
+
+Tree shaking; go linker;
+
+:= moze samo unutar funkcije, globalne varijable moraju sa var i =
+
+constants are immutable, unlike variables which are muttable
